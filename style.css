@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto auto 2.5rem;
+    padding: 0 90px;
+}
+
+#navbar__logo{
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+.navbar__links{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    height: 100%;
+}
+
+.navbar__links:hover{
+    text-decoration:underline;
+}
+
+#button{
+    height: 40%;
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 0 1rem;
+    margin-top: 24px;
+    margin-left: 0.5rem;
+    transition: 0.5s;
+}
+
+#button:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+section{
+    margin: 10rem auto auto auto;
+    display: inline-block;
+}
+
+.name {
+    display: flex; 
+    align-items: center;
+    margin-right: 15px;
+}
+
+.name h1 {
+    font-size: 50px; 
+    font-weight: 800; 
+}
+
+.name .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name h2 {
+    font-size: 30px; 
+    font-weight: 400; 
+}
+
+
+.about .parent {
+    font-size: 40px; 
+    font-weight: 700;
+}
+
+.about .nth-child {
+    font-size: 20px; 
+    font-weight: 400; 
+}
+
+#profile_pic {
+    height: 150px;
+    width: 150px;  
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 20px;
+}
+
+.buttons-parent{
+   margin-top: 15px;
+}
+
+.buttons-parent .button-nth-1{
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 0 1rem;
+    transition: 0.5s;
+    border-width: 1px;
+}
+.buttons-parent .button-nth-1:hover{
+    background-color: white;
+    color: black;
+}
+
+.buttons-parent .button-nth-2{
+    height: 40px;
+    width: 5rem;
+    border-radius: 10px;    
+    background-color: black;
+    color: white;
+    padding: 0 1rem;
+    transition: 0.5s;
+    border-width: 1px;
+}
+
+.buttons-parent .button-nth-2:hover{
+    background-color: white;
+    color: black;
+}
